@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Pesan</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -81,16 +81,21 @@
                 <div class="title m-b-md">
                     Pesan
                 </div>
-				{!! Form::open(array('url' =>
-				'pesan/kirim','method'=>'POST')) !!}
-                <div>
-                   <strong>Pesan:</strong>
-				   {!! Form::text('pesan', null,
-				   array('placeholder' => 'Tuliskan
-				   pesan','class' =>'form-control')) !!}
-				   <button type="submit" class="btn
-				   btn-primary">kirim</button>
+				
+				{!! Form::open(array('url' => 'pesan/kirim','method' => 'POST'))!!}
+				<div>
+					<strong>Pesan</strong>
+					{!! Form::text('pesan',null,array('placeholder' => 'Tulis pesan','class' => 'form-control'))!!}
+					<button type="submit" class="btn btn-primary">Kirim</button>
+				</div>
+				{!! Form::close() !!}
+				<div class="links">
+					<a href="/">Home</a>
+                    <a href="about">Tentang</a>
+                    <a href="pesan">Pesan</a>
                 </div>
+				
+               
             </div>
         </div>
     </body>

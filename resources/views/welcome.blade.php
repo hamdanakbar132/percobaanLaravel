@@ -81,12 +81,14 @@
                 <div class="title m-b-md">
                     Belajar Laravel
                 </div>
-
-                <div class="links">
+				
+				<div class="links">
+                    <a href="about">Tentang</a>
                     <a href="pesan">Pesan</a>
-                    <a href="about">About</a>
-					<a href="template">Templating<a/>
+					<a href="template">Templating</a>
                 </div>
+				
+             
             </div>
         </div>
     </body>

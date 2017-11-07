@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Tentang</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -79,14 +79,16 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Belajar Laravel
+                    Tentang
                 </div>
-
-                <div class="links">
-                   ini adalah project Laravel pertamaku
-				   <br/>
-				   <a href="/">Home</a>
+				
+				<div class="links">
+					<a href="/">Home</a>
+                    <a href="about">Tentang</a>
+                    <a href="pesan">Pesan</a>
                 </div>
+				
+        
             </div>
         </div>
     </body>
